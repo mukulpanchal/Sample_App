@@ -1,4 +1,4 @@
-SampleApp::Application.routes.draw do
+ReachOut-VMAD::Application.routes.draw do
   get "users/new"
 
   root to: 'static_pages#home'
